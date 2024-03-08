@@ -1,0 +1,52 @@
+programa {
+  funcao inicio() { //declaração de inteiro questão 1
+
+  inteiro valora,valorb,valorc,resultado
+
+//digitar os valores
+escreva ("digite o valor de a:")
+
+leia(valora)
+
+escreva("digite o valor de b:")
+
+leia(valorb)
+
+escreva("digite o valor de c:")
+leia(valorc)
+
+//calculo
+
+resultado = valora + valorb
+
+//condição
+
+  se(resultado < valorc)
+
+  {escreva("o valor de c é maior que o resultado:")}
+
+  se(resultado>valorc)
+
+  {escreva("o valor de c é menor que o resultado:")}
+
+
+
+    
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+    
+  }
+}
