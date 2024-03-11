@@ -1,48 +1,61 @@
 programa {
-  funcao inicio() {
-//variavel
+  funcao inicio() {  
+          
+          //variavel  questÃ£o 8
+     
+    cadeia cor,verde,azul,amarelo,vermelho
+          
+        escreva("== TABELA DE PREÃ‡OS ==")
 
-caracter cor
-inteiro preco
+      escreva("\n1-Verde\t: \t10,00 R$")
+      escreva("\n2-Azul\t:\t\t20,00\t R$")
+      escreva("\n3-Amarelo: \t30,00\t R$")
+      escreva("\n4-Vermelho:\t40,00\t R$")
+      escreva("\nescolha sua cor:")
+      leia(cor)
+
+      escolha (cor) {
+ 
+       caso"verde":
+
+       escreva("\nCD verde no valor de 10,00 R$")
+       pare
+        
+        caso "azul":
+
+       escreva("\nCD azul no valor de 20,00 R$")
+       pare
+         
+         caso "amarelo":
+         escreva("amarelo nno preÃ§o de 30,00 R$")
+         pare
+         caso"vermelho":
+
+         escreva("\nCD vermelho no valor de 40,00 R$")
+         pare
 
 
- //dados
- escreva(" \t=== listas ===\t")
- escreva ("\n1-Verde:10,00 R$\t")
-  escreva ("\n2-Azul:20,00 R$\t")
-escreva("\n3-Amarelo:30,00 R$\t")
-escreva("\n4-Vermelho:40,00 R$\t")
-
-//solicitação ao usuário
-
-escreva("\nescolha uma cor entre 1,2,3,4 :")
-leia(cor)
-
-escolha(cor) {
- caso  "1" :
-
- escreva  ("verde no valor de 10,00 R$")
-
-
- pare
- caso "2":
- escreva ("azul no valor de 20,00 R$")
- pare
-
-caso "3":
-escreva ("amarelo no valor de 30,00 R$")
-
+         
+         caso contrario : escreva ("cd invalido")
+          
 pare
-
-caso "4":
-escreva("vermelho no valor de 40,00 R$")
-
-pare
-caso contrario:
-escreva("cor inválida")
+ 
 
 
-}
+
+
+
+
+
+
+
+      }
+
+
+
+  
+
+
     
   }
 }
