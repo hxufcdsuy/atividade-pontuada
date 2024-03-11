@@ -1,5 +1,5 @@
 programa {
-  funcao inicio() { //declaracao questão 6
+  funcao inicio() { //declaracao questÃ£o 6
 
   real mediaum,mediadois,resultado
 
@@ -11,7 +11,7 @@ programa {
    
     
     resultado= mediaum + mediadois /2
-    escreva("o resultado é:",resultado)
+    escreva("o resultado Ã©:",resultado)
 
    se(resultado >= 6)
   {escreva("\naluno aprovado")}
