@@ -1,5 +1,5 @@
 programa {
-  funcao inicio() { //declaraÁ„o de vari·vel terceira questao
+  funcao inicio() { //declara√ß√£o de vari√°vel terceira questao
 
   inteiro valora,valorb,valorc
 
@@ -8,7 +8,7 @@ programa {
   leia(valora)
   escreva("valor b:")
   leia(valorb)
-  //condiÁ„o
+  //condi√ß√£o
 
   se ( valora == valorb)
     
@@ -21,7 +21,7 @@ programa {
 
     escreva("=== Exibindo resultados ==")
 
-    escreva ("o valor de c È:",valorc)
+    escreva ("o valor de c √©:",valorc)
 
 
 
