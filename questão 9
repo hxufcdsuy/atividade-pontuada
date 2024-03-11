@@ -1,5 +1,5 @@
 programa {
-  funcao inicio() { //variavel questão 9
+  funcao inicio() { //variavel questÃ£o 9
   real rendamensal,totalemprestimo,maximo
 
   inteiro parcelas
@@ -7,9 +7,9 @@ programa {
  escreva("digite o valor da sua renda:")
 
  leia(rendamensal)
- escreva(" qual o valor do empréstimo:")
+ escreva(" qual o valor do emprÃ©stimo:")
  leia(totalemprestimo)
- escreva("qual o valor das prestações:")
+ escreva("qual o valor das prestaÃ§Ãµes:")
 leia(parcelas)
 // calculo
 
@@ -20,7 +20,7 @@ maximo = rendamensal * 0.30
 
 se  (totalemprestimo > rendamensal * 10 e maximo <= rendamensal * 0.30)
 
-{ escreva ("empréstimo concedido.")
+{ escreva ("emprÃ©stimo concedido.")
 
 
 
@@ -32,7 +32,7 @@ se  (totalemprestimo > rendamensal * 10 e maximo <= rendamensal * 0.30)
 
 
 }
-senao{escreva(" empréstimo não concedido")}
+senao{escreva(" emprÃ©stimo nÃ£o concedido")}
 
 
 
