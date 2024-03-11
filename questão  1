@@ -1,5 +1,5 @@
 programa {
-  funcao inicio() { //declaraÁ„o de inteiro quest„o 1
+  funcao inicio() { //declara√ß√£o de inteiro quest√£o 1
 
   inteiro valora,valorb,valorc,resultado
 
@@ -19,15 +19,15 @@ leia(valorc)
 
 resultado = valora + valorb
 
-//condiÁ„o
+//condi√ß√£o
 
   se(resultado < valorc)
 
-  {escreva("o valor de c È maior que o resultado:")}
+  {escreva("o valor de c √© maior que o resultado:")}
 
   se(resultado>valorc)
 
-  {escreva("o valor de c È menor que o resultado:")}
+  {escreva("o valor de c √© menor que o resultado:")}
 
 
 
